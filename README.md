@@ -57,7 +57,7 @@ A simple [website](https://shelf.avosapps.com/Maple/) based on this seed.
 
 For more information on AngularJS please check out http://angularjs.org/
 For more on LeanCloud, https://www.leancloud.cn
-For other questions, please contact SK8 PTY LTD, https://www.sk8.asia
+For other questions, please contact [SK8 PTY LTD](http://sk8techs.com), http://sk8techs.com
 
 ## License
 MIT
