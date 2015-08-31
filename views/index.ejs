@@ -1,0 +1,31 @@
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1">
+    <meta name="description" content="page description">
+    <meta name="author" content="SK8 PTY LTD">
+    <base href="/">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  </head>
+  <body ng-controller="AppCtrl">
+    <h2>It works!</h2>
+    <a ng-href="/view1">This is Partial1</a>
+    <a ng-href="/view2">This is Partial2</a>
+    <div ng-view="ng-view"></div>
+    <div ng-if="false">
+      <!-- Scripts -->
+      <script src="https://cdn1.lncld.net/static/js/av-mini-0.5.7.js"></script>
+      <!-- AngularJS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+      <!-- Controller -->
+      <script src="js/app.js"></script>
+      <script src="js/services.js"></script>
+      <script src="js/controllers.js"></script>
+      <script src="js/filters.js"></script>
+      <script src="js/directives.js"></script>
+    </div>
+  </body>
+</html>
