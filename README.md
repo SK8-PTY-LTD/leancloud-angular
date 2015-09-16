@@ -2,7 +2,7 @@
 
 Start an awesome app with AngularJS on the front, LeanCloud Cloud Code on the back(Express + Node). This project is an
 application skeleton for a typical [AngularJS](http://angularjs.org/) web app for those who want
-to use [LeanCloud Cloud Code](https://www.leancloud.cn/doc/cloud_code) to serve their app.
+to use [LeanCloud Cloud Engine](https://leancloud.cn/docs/leanengine_guide-node.html) to serve their app.
 
 The seed contains angular libraries, LeanCloud libraries and a bunch of scripts all preconfigured for
 instant web development gratification. Just clone the repo (or download the zip/tarball) and
@@ -19,45 +19,22 @@ HTML, and let AngularJS take care of interpolation on the browser side._
 
 Clone the leancloud-angular-seed repository, run `npm install` to grab the dependencies, and start hacking!
 
-### Running the app
+### Usage
 
 Runs like a typical LeanCloud app:
 
     avoscloud
 
-## Directory Layout
-    
-    cloud/
-        app.js          --> app config
-        main.js         --> cloud function and stuff
-        public/             --> all of the files to be used in on the client side
-            css/              --> css files
-            img/              --> image files
-            js/               --> javascript files
-                app.js          -->Angular app.js. IMPORTANT! Set the applicaiton id and key here!
-                controllers.js  --> application controllers
-                directives.js   --> custom angular directives
-                filters.js      --> custom angular filters
-                services.js     --> custom angular services
-                    lib/            --> angular and 3rd party JavaScript libraries
-                    angular/
-                        angular.min.js          --> V1.3.9
-                        angular-route.min.js    --> V1.3.9
-    config/
-        global.json     --> IMPORTANT! Change the applicaiton id and key before deploying the app!
-    package.json        --> for npm
+## History
 
-
-## Example App
-
-A simple [website](https://shelf.avosapps.com/Maple/) based on this seed.
-
+01/09/15 Updated project to adapt [LeanCloud Cloud Engine](https://leancloud.cn/docs/leanengine_guide-node.html)
+01/04/15 Project Initialized
 
 ## Contact
 
 For more information on AngularJS please check out http://angularjs.org/
 For more on LeanCloud, https://www.leancloud.cn
-For other questions, please contact [SK8 PTY LTD](http://sk8techs.com), http://sk8techs.com
+For other questions, please contact [SK8 Tech](http://sk8techs.com), http://sk8techs.com
 
 ## License
 MIT
