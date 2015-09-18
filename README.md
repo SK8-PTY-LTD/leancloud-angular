@@ -25,6 +25,30 @@ Runs like a typical LeanCloud app:
 
     avoscloud
 
+## Directory Layout
+    
+    
+    app.js          --> app config
+    cloud.js        --> cloud function and stuff
+    public/         --> all of the files to be used in on the client side
+        css/              --> css files
+        img/              --> image files
+        js/               --> javascript files
+            app.js          -->Angular app.js. IMPORTANT! Set the applicaiton id and key here!
+            controllers.js  --> application controllers
+            directives.js   --> custom angular directives
+            filters.js      --> custom angular filters
+            services.js     --> custom angular services
+        lib/              --> angular and 3rd party JavaScript libraries
+            angular/
+                    angular.min.js          --> V1.3.9
+                    angular-route.min.js    --> V1.3.9
+    routes/			--> for Express.js config and routing
+    	api.js 			  --> custom middleware API
+    	index.js          --> Main routing configs
+    package.json    --> for npm
+
+
 ## History
 
 01/09/15 Updated project to adapt [LeanCloud Cloud Engine](https://leancloud.cn/docs/leanengine_guide-node.html)
