@@ -46,6 +46,11 @@ Runs like a typical LeanCloud app:
     routes/			--> for Express.js config and routing
     	api.js 			  --> custom middleware API
     	index.js          --> Main routing configs
+    server.js       --> initialise your LeanCloud project
+    views/          --> AngularJS views ejs files
+        index.ejs        --> AngularJS index page
+        partials/   --> rest of AngularJS partial view pages
+
     package.json    --> for npm
 
 
